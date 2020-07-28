@@ -1,7 +1,7 @@
 // Higher-Order functions: functions takes functions or returns functions
-// - map
-// - filter
-// - reduce
+// - map [ e -> function -> new_e ]
+// - filter [ e -> function -> stays or not ]
+// - reduce [ e -> function -> single value ]
 
 function map(arr, fn) {
   const newArr = []
